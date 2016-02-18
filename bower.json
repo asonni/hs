@@ -1,0 +1,19 @@
+{
+  "name": "public",
+  "version": "0.0.0",
+  "homepage": "https://github.com/asonni/hs",
+  "authors": [
+    "Aladdin <alaaden3000@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular-animate": "~1.5.0",
+    "angular-route": "~1.5.0",
+    "angular": "~1.5.0",
+    "bootstrap-rtl": "~3.3.4",
+    "bootstrap": "~3.3.6"
+  }
+}
