@@ -2,7 +2,7 @@
 
 To install the app follow these instructions
 
-1-git clone <Url>
+1-git clone Url
 
 2-npm install
 
