@@ -1,6 +1,6 @@
 {
-  "name": "public",
-  "version": "0.0.0",
+  "name": "hs",
+  "version": "1.0.0",
   "homepage": "https://github.com/asonni/hs",
   "authors": [
     "Aladdin <alaaden3000@gmail.com>"
@@ -14,6 +14,8 @@
     "angular-route": "~1.5.0",
     "angular": "~1.5.0",
     "bootstrap-rtl": "~3.3.4",
-    "bootstrap": "~3.3.6"
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0",
+    "animate.css": "~3.5.1"
   }
 }
