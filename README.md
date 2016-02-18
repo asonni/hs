@@ -7,6 +7,7 @@ To install the app follow these instructions
 2-npm install
 
 3-install bower ubuntu
-  sudo npm install bower -g
+  
+   sudo npm install bower -g
 
 4-bower install
