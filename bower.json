@@ -2,9 +2,6 @@
   "name": "hs",
   "version": "1.0.0",
   "homepage": "https://github.com/asonni/hs",
-  "authors": [
-    "Aladdin <alaaden3000@gmail.com>"
-  ],
   "moduleType": [
     "node"
   ],
