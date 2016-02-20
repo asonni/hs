@@ -1,8 +1,18 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.navbar {
+  border-radius: 0px;
 }
-
-a {
-  color: #00B7FF;
+.bmd-dropdown>.dropdown-menu{
+  -webkit-transform-origin: right top;
+  transform-origin: right top;
+}
+.bmd-dropdown.user>.dropdown-menu{
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+}
+.dropdown-menu.user {
+  right: auto;
+  left: 0;
+}
+.col-centered{
+  text-align: center;
 }

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/flaticon.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="/bootstrap-rtl/dist/css/bootstrap-rtl.min.css">
+    <!-- <link rel="stylesheet" href="/bootstrap-rtl/dist/css/bootstrap-rtl.min.css"> -->
     <link rel="stylesheet" href="/css/prettify.css">
     <link rel="stylesheet" href="/css/main.min.css">
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
@@ -20,10 +20,10 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body class="animated fadeIn">
-    <nav class="navbar navbar-info">
+    <nav class="navbar navbar-primary">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -48,49 +48,45 @@
               </ul>
             </li>
           </ul>
-          <ul class="nav navbar-nav navbar-left">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="#" class="bmd-ripple">Link</a></li>
-            <li class="dropdown bmd-dropdown user">
-              <a href="#" class="dropdown-toggle bmd-ripple" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <i class="flaticon-show8"></i></a>
-              <ul class="dropdown-menu user" role="menu">
-                <a href="#" class="dropdown-toggle bmd-ripple" data-toggle="dropdown" role="button" aria-expanded="false"></a>
-                <li><a href="#" class="dropdown-toggle bmd-ripple" data-toggle="dropdown" role="button" aria-expanded="false"></a><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- inline style for demo purpose -->
-    <div id="sidebar-info" class="bmd-sidebar-info bmd-sidebar bmd-sidebar-overlay bmd-sidebar-small bmd-sidebar-right" style="position:absolute;">
+    <div id="sidebar-small" class="bmd-sidebar-primary bmd-sidebar bmd-sidebar-small bmd-sidebar-collapse bmd-sidebar-left" style="position:absolute;">
       <ul class="bmd-sidebar-nav list-unstyled">
         <li class="bmd-sidebar-brand"><h3><a href="#" class="bmd-ripple">Sidebar Menu</a></h3></li>
-        <li><a href="#" class="bmd-ripple">Dashboard</a></li>
+        <li><a href="#" class="bmd-ripple">Dashboard<i class="bmd-sidebar-small-icon flaticon-android11"></i></a></li>
         <li>
-          <a href="#" data-target="#submenu-info" data-toggle="collapse" class="bmd-ripple collapsed">Submenu</a>
-          <ul class="list-unstyled collapse" id="submenu-info">
+          <a href="#" data-target="#submenu-small" data-toggle="collapse" class="bmd-ripple collapsed" aria-expanded="false">Submenu<i class="bmd-sidebar-small-icon flaticon-connection21"></i></a>
+          <ul class="list-unstyled collapse" id="submenu-small" aria-expanded="false" style="height: 0px;">
             <li><a href="#" class="bmd-ripple">Sub-item 1</a></li>
             <li><a href="#" class="bmd-ripple">Sub-item 2</a></li>
             <li><a href="#" class="bmd-ripple">Sub-item 3</a></li>
           </ul>
         </li>
-        <li><a href="#">Shortcuts</a></li>
+        <li><a href="#">Shortcuts<i class="bmd-sidebar-small-icon flaticon-drafts"></i></a></li>
       </ul>
     </div>
     <div class="bmd-page-container">
       <div class="container">
-        <div class="row">
-          <div class="animated fadeIn" ng-view></div>
-        </div>
+        <h3 class="text-center">Your page contents are here</h3>
+        <br>
+        <h4>Section 1</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </div>
     </div>
-    <a href="#" class="bmd-sidebar-toggle bmd-sidebar-toggle-info" data-target="#sidebar-info" style="position:absolute;">
+    <!-- inline style for demo purpose -->
+    <a href="#" class="bmd-sidebar-toggle bmd-sidebar-toggle-primary" data-target="#sidebar-small" style="position:absolute;">
       <i class="flaticon-menu55"></i>
       <i class="flaticon-close47"></i>
     </a>
